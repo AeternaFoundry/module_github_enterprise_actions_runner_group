@@ -27,7 +27,7 @@ EOT
         contains(["all", "selected"], v.visibility)
       )
     ])
-    error_message = "must be one of: all, selected"
+    error_message = "must be one of: \"all\", \"selected\""
   }
 }
 
